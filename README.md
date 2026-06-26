@@ -1,30 +1,34 @@
 # RecruitSmart
 
-AI-Powered Resume Screening and Candidate Ranking Engine
+## Project Overview
+RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiters automatically rank candidates based on their suitability for a job.
 
-## Project Objective
+## Objective
+- Automate resume screening
+- Rank candidates based on skills and experience
+- Reduce recruiter screening time
 
-To automate candidate screening and ranking using NLP and Machine Learning techniques.
-
-## Business Problem
-
-Recruiters spend significant time manually reviewing resumes, causing delays and missing qualified candidates.
-
-## Proposed Solution
-
-Build a Learning-to-Rank system that matches resumes with job descriptions and ranks candidates according to suitability.
-
-## Tech Stack
-
+## Technologies Used
 - Python
 - Pandas
 - NumPy
-- Scikit-Learn
-- XGBoost
-- Sentence Transformers
-- SpaCy
-- FastAPI
+- Jupyter Notebook
+- SQL (Upcoming)
+- XGBoost (Upcoming)
+- FastAPI (Upcoming)
+- Power BI (Upcoming)
 
-## Project Status
+## Project Progress
 
-Day 1: Repository Setup Completed
+### Day 1
+- Read project blueprint
+- Confirmed dataset sources
+- Created GitHub repository
+- Set up project folder structure
+
+### Day 2
+- Downloaded Kaggle datasets
+- Loaded all datasets into Jupyter Notebook
+- Inspected dataset structure
+- Performed initial data audit
+- Identified missing values
