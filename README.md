@@ -32,3 +32,9 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Inspected dataset structure
 - Performed initial data audit
 - Identified missing values
+
+## Day 3 Progress
+- Created the Applications bridge table.
+- Handled missing experience values.
+- Applied text preprocessing to job descriptions and requirements.
+- Saved cleaned datasets for feature engineering.
