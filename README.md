@@ -45,3 +45,11 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Created the `JobCandidateView` SQL View by joining Jobs, Candidates, and Applications tables.
 - Queried the SQL View to validate the relationships between jobs and candidates.
 - Uploaded the Day 4 notebook (`Day4_ZiroProject.ipynb`) to the repository.
+
+- ## Day 5 Progress
+
+- Created SQL queries to count candidate skills from the PersonSkills table.
+- Generated numerical experience scores using SQL CASE statements.
+- Performed duplicate record checks for Candidates and Applications tables.
+- Prepared SQL-based features for the RecruitSmart recommendation engine.
+- Uploaded the Day 5 notebook (`Day5_ZiroProject.ipynb`) to the repository.
