@@ -1,5 +1,3 @@
-# RecruitSmart
-
 ## Project Overview
 RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiters automatically rank candidates based on their suitability for a job.
 
@@ -38,3 +36,12 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Handled missing experience values.
 - Applied text preprocessing to job descriptions and requirements.
 - Saved cleaned datasets for feature engineering.
+
+## Day 4 Progress
+
+- Created a SQLite database (`RecruitSmart.db`) for the project.
+- Imported the Jobs, Candidates, Applications, PersonSkills, and Skills datasets into SQL tables.
+- Verified that all tables were created successfully.
+- Created the `JobCandidateView` SQL View by joining Jobs, Candidates, and Applications tables.
+- Queried the SQL View to validate the relationships between jobs and candidates.
+- Uploaded the Day 4 notebook (`Day4_ZiroProject.ipynb`) to the repository.
