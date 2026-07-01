@@ -70,3 +70,11 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Exported the final modeling dataset (`flattened_feature_matrix.csv`).
 - Validated the distribution of target scores across job postings.
 - Uploaded the Day 7 notebook (`Day7_ZiroProject.ipynb`) to the repository.
+
+## Day 8 Progress
+
+- Performed exploratory data analysis (EDA) on job descriptions and requirements.
+- Generated word frequency distributions after removing stop words.
+- Processed salary ranges into average salary values and compared Python-related jobs with other roles.
+- Validated the distribution of the generated `match_relevance_score` target variable.
+- Uploaded the Day 8 notebook (`Day8_ZiroProject.ipynb`) to the repository.
