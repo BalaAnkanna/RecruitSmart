@@ -61,3 +61,12 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Analyzed job title frequencies to identify high-volume and niche job postings.
 - Prepared additional SQL-based features for the RecruitSmart recommendation engine.
 - Uploaded the Day 6 notebook (`Day6_ZiroProject.ipynb`) to the repository.
+
+## Day 7 Progress
+
+- Generated the `match_relevance_score` target variable for machine learning.
+- Created a flattened feature matrix by joining Jobs, Candidates, and Applications tables.
+- Merged target scores into the feature matrix.
+- Exported the final modeling dataset (`flattened_feature_matrix.csv`).
+- Validated the distribution of target scores across job postings.
+- Uploaded the Day 7 notebook (`Day7_ZiroProject.ipynb`) to the repository.
