@@ -94,3 +94,12 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Generated a TF-IDF matrix with 17,880 job postings and 500 text features.
 - Calculated cosine similarity scores to measure text similarity between job descriptions.
 - Uploaded the Day 10 notebook (`Day10_ZiroProject.ipynb`) to the repository.
+
+- ## Day 11 Progress
+
+- Implemented HuggingFace Sentence-Transformers (all-MiniLM-L6-v2) for semantic text embeddings.
+- Generated contextual embeddings for job descriptions and requirements.
+- Calculated semantic similarity using cosine similarity.
+- Compared BERT-based semantic similarity with the TF-IDF baseline.
+- Exported generated embeddings (`bert_embeddings.csv`) for future machine learning tasks.
+- Uploaded the Day 11 notebook (`Day11_ZiroProject.ipynb`) to the repository.
