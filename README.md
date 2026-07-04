@@ -78,3 +78,11 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Processed salary ranges into average salary values and compared Python-related jobs with other roles.
 - Validated the distribution of the generated `match_relevance_score` target variable.
 - Uploaded the Day 8 notebook (`Day8_ZiroProject.ipynb`) to the repository.
+
+## Day 9 Progress
+
+- Completed Exploratory Data Analysis (EDA) on required experience levels.
+- Visualized the distribution of experience categories.
+- Performed outlier detection on the generated match relevance scores using the IQR method.
+- Finalized and exported the feature set (`final_feature_set.csv`) for the NLP pipeline.
+- Uploaded the Day 9 notebook to the repository.
