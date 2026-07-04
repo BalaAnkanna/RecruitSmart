@@ -103,3 +103,11 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Compared BERT-based semantic similarity with the TF-IDF baseline.
 - Exported generated embeddings (`bert_embeddings.csv`) for future machine learning tasks.
 - Uploaded the Day 11 notebook (`Day11_ZiroProject.ipynb`) to the repository.
+
+- ## Day 12 Progress
+
+- Implemented GroupKFold cross-validation grouped by `job_id`.
+- Trained a baseline Random Forest Regressor to predict `match_relevance_score`.
+- Evaluated model performance using Mean Absolute Error (MAE).
+- Analyzed feature importance for the engineered feature set.
+- Uploaded the Day 12 notebook (`Day12_ZiroProject.ipynb`) to the repository.
