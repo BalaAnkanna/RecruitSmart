@@ -86,3 +86,11 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Performed outlier detection on the generated match relevance scores using the IQR method.
 - Finalized and exported the feature set (`final_feature_set.csv`) for the NLP pipeline.
 - Uploaded the Day 9 notebook to the repository.
+
+## Day 10 Progress
+
+- Initialized the spaCy NLP pipeline for Named Entity Recognition (NER).
+- Built a TF-IDF vectorizer to convert job descriptions into numerical feature vectors.
+- Generated a TF-IDF matrix with 17,880 job postings and 500 text features.
+- Calculated cosine similarity scores to measure text similarity between job descriptions.
+- Uploaded the Day 10 notebook (`Day10_ZiroProject.ipynb`) to the repository.
