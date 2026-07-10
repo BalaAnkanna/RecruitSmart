@@ -127,3 +127,31 @@ RecruitSmart is an AI-powered talent-to-role ranking system that helps recruiter
 - Performed an adapted NDCG@5 and NDCG@10 evaluation using engineered relevance scores.
 - Visualized Precision@K results and summarized overall model performance.
 - Uploaded the Day 14 notebook (`Day14_ZiroProject.ipynb`) to the repository.
+
+- Day 15 Progress
+Connected the RecruitSmart datasets to Power BI Desktop.
+Imported the cleaned job and feature datasets for dashboard development.
+Created KPI cards to display Total Jobs, Total Candidates, Average Skills, and Average Match Score.
+Designed recruiter-focused visualizations including Department, Employment Type, Experience Level, Salary Distribution, and Top Matching Job Titles.
+Uploaded the Day 15 Power BI dashboard and related project files to the repository.
+
+- Day 16 Progress
+Enhanced the RecruitSmart dashboard by adding an Average Time-to-Shortlist KPI.
+Created interactive slicers for Experience Level and Skill Cluster filtering.
+Built a Match Score Distribution visualization for recruiter analysis.
+Verified dashboard interactivity and ensured filters updated all visuals correctly.
+Uploaded the Day 16 notebook (Day16_ZiroProject.ipynb) to the repository.
+
+- Day 17 Progress
+Reviewed and validated the RecruitSmart Power BI dashboard for consistency.
+Verified KPI values, charts, and slicers against the processed datasets and model outputs.
+Confirmed the dashboard was ready for project documentation and portfolio inclusion.
+Finalized the dashboard for presentation and deployment preparation.
+Uploaded the finalized dashboard files and documentation updates to the repository.
+
+- Day 18 Progress
+Developed the initial FastAPI application structure for the RecruitSmart project.
+Created a Pydantic model to validate incoming JSON resume data.
+Built a preprocessing class to standardize resume information before prediction.
+Implemented the /predict endpoint to return candidate match ranking results.
+Uploaded the Day 18 notebook (Day18_API.ipynb) to the repository.
