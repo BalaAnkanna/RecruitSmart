@@ -165,3 +165,59 @@ Uploaded the Day 18 notebook (Day18_API.ipynb) to the repository.
 - Developed the FastAPI `/jobs/{job_id}` endpoint to fetch job information from the SQL database.
 - Tested the API logic using sample requests in Jupyter Notebook and verified the returned job details.
 - Uploaded the Day 19 notebook (`Day19_ZiroProject.ipynb`) to the repository.
+
+- ## How to Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/RecruitSmart.git
+cd RecruitSmart
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the FastAPI Application
+
+```bash
+python -m uvicorn main:app --reload
+```
+
+Open your browser:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+This opens the FastAPI Swagger UI where you can test the API endpoints.
+
+## Project Structure
+
+RecruitSmart/
+│
+├── data/
+├── notebooks/
+├── models/
+├── dashboard/
+├── main.py
+├── recruitsmart.db
+├── recruitsmart_model.pkl
+├── requirements.txt
+└── README.md
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- SQLite
+- FastAPI
+- Joblib
+- Power BI
+- Jupyter Notebook
