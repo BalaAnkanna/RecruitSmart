@@ -155,3 +155,13 @@ Created a Pydantic model to validate incoming JSON resume data.
 Built a preprocessing class to standardize resume information before prediction.
 Implemented the /predict endpoint to return candidate match ranking results.
 Uploaded the Day 18 notebook (Day18_API.ipynb) to the repository.
+
+## Day 19 Progress
+
+- Serialized the trained RecruitSmart recommendation model using Joblib for deployment.
+- Loaded and verified the saved model artifact for inference.
+- Connected the FastAPI application to the SQLite database and recreated the required SQL tables from the cleaned datasets.
+- Implemented SQL queries to retrieve job details based on `job_id`.
+- Developed the FastAPI `/jobs/{job_id}` endpoint to fetch job information from the SQL database.
+- Tested the API logic using sample requests in Jupyter Notebook and verified the returned job details.
+- Uploaded the Day 19 notebook (`Day19_ZiroProject.ipynb`) to the repository.
